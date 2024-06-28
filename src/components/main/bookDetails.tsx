@@ -9,12 +9,12 @@ export default function BookDetails() {
   return (
     <>
       <section className="flex">
-        <div className="fixed top-0 left-0 h-full w-[25%] bg-sky-200">
-          
-        </div>
+        <div className="fixed top-0 left-0 h-full w-[25%] bg-sky-200"></div>
 
         <div className="fixed top-0 right-0 w-[75%] h-full bg-pink-200">
-
+          <div className="flex justify-center items-center">
+            This is a Good Paragraph
+          </div>
         </div>
       </section>
     </>
